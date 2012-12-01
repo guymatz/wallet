@@ -19,7 +19,16 @@ Puppet::Type.newtype(:wallet) do
 		end
   end
 
+  # Password for wallet
   newparam(:pwd) do
+  end
+
+  # Path to Oracle binaries
+  newparam(:oraInst) do
+  end
+
+  # Path to java
+  newparam(:jdk) do
   end
 
 end
